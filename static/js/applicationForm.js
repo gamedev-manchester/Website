@@ -13,7 +13,8 @@ var genderSelectors = {
 
 // Team selectors (HTML elements)
 var teamSelectors = {
-  enterntainment: "#enterntainment-team-selector",
+  // enterntainment: "#enterntainment-team-selector",
+  workshops: "#workshops-team-selector",
   events: "#events-team-selector",
   dev: "#dev-team-selector",
   graphics: "#graphics-team-selector",

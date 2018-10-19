@@ -28,12 +28,12 @@ const MainRouter = (database, passport) => {
   // Sponsors Page
   router.get('/sponsors', mainController.sponsors);
   // The list of all events
-  router.get('/events', mainController.getEvents);
+  // router.get('/events', mainController.getEvents);
 
 
-  const cvRouter = require("./CVRouter")(database, passport);
+  // const cvRouter = require("./CVRouter")(database, passport);
 
-  router.use("/cv/", cvRouter);
+  // router.use("/cv/", cvRouter);
 
   const singupRouter = require("./SignupRouter")(database, passport);
 
@@ -48,9 +48,9 @@ const MainRouter = (database, passport) => {
   router.get("/subscription/remove", (req, res) =>
     res.redirect(301, `/signup/subscription/remove?email=${req.query.email}&subscriptionId=${req.query.subscriptionId}`));
 
-  const jobsRouter = require("./JobsRouter")(database);
+  // const jobsRouter = require("./JobsRouter")(database);
 
-  router.use("/jobs/", jobsRouter);
+  // router.use("/jobs/", jobsRouter);
 
   return router;
 };
