@@ -8,6 +8,41 @@
     "id": "raad-aldakhil",
     "name": "Raad Aldakhil",
     "description": "Co-Director"
+  },
+  {
+    "id": "flamina",
+    "name": "Flamina",
+    "description":"Events Manager"
+  },
+  {
+    "id": "alex-spies",
+    "name": "Alex Spies",
+    "description":"Events Manager"
+  },
+  {
+    "id": "mohammad-patel",
+    "name": "Mohammad Patel",
+    "description":"Dev Manager"
+  },
+  {
+    "id": "rhys-kentish",
+    "name": "Rhys Kentish",
+    "description":"Graphics Manager"
+  },
+  {
+    "id": "thomas-",
+    "name": "Thomas ",
+    "description":"Workshop Manager"
+  },
+  {
+    "id": "lulia-visterneanu",
+    "name": "Lulia-Visterneanu",
+    "description":"Workshop Manager"
+  },
+  {
+    "id": "alvi-hussain",
+    "name": "Alvi Hussain",
+    "description":"PR Manager"
   }
 
 ]
