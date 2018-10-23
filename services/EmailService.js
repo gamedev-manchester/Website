@@ -8,8 +8,10 @@ const emailHelpers = require('../helpers/EmailHelpers');
 
 // Sends an email to info@hacksoc
 exports.contactHackSoc = (sender, body) => {
-  // Forward the message to info@hacksoc.com
-  sendEmail("contact@hacksoc.com", "contact@hacksoc.com", sender, body);
+  // Forward the message to gamedev@hacksoc.com
+
+
+  sendEmail("gamedev@hacksoc.com", "gamedev@hacksoc.com", sender, body);
 };
 
 exports.sendCVBankEmailVerificationEmail = async (cvSubmission) => {
